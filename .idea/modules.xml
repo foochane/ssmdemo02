@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ssmdemo02-common/ssmdemo02-common.iml" filepath="$PROJECT_DIR$/ssmdemo02-common/ssmdemo02-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssmdemo02-controller/ssmdemo02-controller.iml" filepath="$PROJECT_DIR$/ssmdemo02-controller/ssmdemo02-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssmdemo02-dao/ssmdemo02-dao.iml" filepath="$PROJECT_DIR$/ssmdemo02-dao/ssmdemo02-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssmdemo02-model/ssmdemo02-model.iml" filepath="$PROJECT_DIR$/ssmdemo02-model/ssmdemo02-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssmdemo02-root.iml" filepath="$PROJECT_DIR$/ssmdemo02-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssmdemo02-service/ssmdemo02-service.iml" filepath="$PROJECT_DIR$/ssmdemo02-service/ssmdemo02-service.iml" />
+    </modules>
+  </component>
+</project>

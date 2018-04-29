@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ssmdemo02-root</artifactId>
+        <groupId>com.example</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ssmdemo02-controller</artifactId>
+
+    <packaging>war</packaging>
+
+
+    <dependencies>
+        <!--添加对service的依赖-->
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>ssmdemo02-service</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!--添加对dao的依赖-->
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>ssmdemo02-dao</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!--添加对model的依赖-->
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>ssmdemo02-model</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.9</version>
+        </dependency>
+
+
+    </dependencies>
+
+</project>
