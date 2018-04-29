@@ -28,6 +28,7 @@
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="ssmdemo02-service" />
+    <orderEntry type="module" module-name="ssmdemo02-common" />
     <orderEntry type="module" module-name="ssmdemo02-dao" />
     <orderEntry type="module" module-name="ssmdemo02-model" />
     <orderEntry type="library" name="Maven: com.alibaba:druid:1.1.9" level="project" />

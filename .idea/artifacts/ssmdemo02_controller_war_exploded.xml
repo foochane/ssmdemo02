@@ -10,6 +10,9 @@
           <element id="archive" name="ssmdemo02-service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="ssmdemo02-service" />
           </element>
+          <element id="archive" name="ssmdemo02-common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ssmdemo02-common" />
+          </element>
           <element id="archive" name="ssmdemo02-dao-1.0-SNAPSHOT.jar">
             <element id="module-output" name="ssmdemo02-dao" />
           </element>

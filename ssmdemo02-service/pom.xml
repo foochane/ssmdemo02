@@ -28,6 +28,13 @@
             <version>${project.version}</version>
         </dependency>
 
+        <!--添加对common的依赖-->
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>ssmdemo02-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
     </dependencies>
 
 

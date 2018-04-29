@@ -1,5 +1,9 @@
 package com.example.service.impl;
 
+import com.example.common.DataResult;
+import com.example.common.FillUtil;
+import com.example.common.Result;
+import com.example.common.StatEnum;
 import com.example.dao.User;
 import com.example.dao.UserMapper;
 
@@ -30,5 +34,13 @@ public class UserServiceImpl implements UserService {
 
         }
         return  userData;
+    }
+
+    //TODO 异常抛出还没出来
+    @Override
+    public Result getById(Integer id) throws Exception{
+        User user = userMapper.getById(id);
+
+        return new DataResult(StatEnum.SUCCESS.getState(),StatEnum.SUCCESS.getInfo(), FillUtil.fill(user,UserData.class));
     }
 }
