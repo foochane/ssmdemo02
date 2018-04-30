@@ -19,7 +19,7 @@ CREATE TABLE user(
 
 -- 插入初始化数据
 insert into
-  user_info(user_name,age,address,user_phone)
+  `user`(user_name,age,address,user_phone)
 values
   ('小明',21,'北京','13712345678'),
   ('小张',22,'上海','13212345678');

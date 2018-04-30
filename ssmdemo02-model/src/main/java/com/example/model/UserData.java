@@ -7,6 +7,8 @@ public class UserData {
     private Integer userId;
     private String userName;
     private Integer age;
+    private String userPhone;
+    private String address;
 
     public Integer getUserId() {
         return userId;
@@ -30,5 +32,21 @@ public class UserData {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    public String getUserPhone() {
+        return userPhone;
+    }
+
+    public void setUserPhone(String userPhone) {
+        this.userPhone = userPhone;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }

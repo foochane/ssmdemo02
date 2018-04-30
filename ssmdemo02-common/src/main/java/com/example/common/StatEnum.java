@@ -4,7 +4,8 @@ package com.example.common;
  * Created by fucheng on 2018/4/29.
  */
 public enum StatEnum {
-    SUCCESS(1001,"操作成功");
+    SUCCESS(1001,"操作成功"),
+    FAILED(1002,"操作失败");
 
 
     private int state;
